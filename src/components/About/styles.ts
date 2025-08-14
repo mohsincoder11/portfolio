@@ -48,6 +48,7 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
+   border-radius:10px;
      margin-top: 2rem;
      width: 75%;
      filter: grayscale(0);
@@ -95,5 +96,8 @@ export const Container = styled.section`
     
     
   }
+    .mohsin-img{
+    border-radius:5px;
+    }
 
 `
