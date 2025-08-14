@@ -4,19 +4,22 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+import laravelIcon from "../../assets/laravel-2.svg"
+import phpIcon from "../../assets/php-4.svg"
+import tailwindIcon from "../../assets/tailwind-css-2.svg";
+import mysqlIcon from "../../assets/mysql-2.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 // import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import ScrollAnimation from "react-animate-on-scroll";
+import postgresIcon from "../../assets/postgresql.svg";
+import gitIcon from "../../assets/git-icon.svg";
+import postmanIcon from "../../assets/postman.svg";
 
 export function Main() {
   return (
@@ -161,12 +164,12 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": laravelIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": mysqlIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -186,12 +189,12 @@ export function Main() {
                 //   "height": 20
                 // },
                 {
-                  "src": python,
+                  "src": phpIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": java,
+                  "src": postmanIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -201,7 +204,7 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": postgresIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -210,11 +213,16 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": tailwindIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                 {
+                  "src": gitIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": vueIcon,
                   "width": 20,

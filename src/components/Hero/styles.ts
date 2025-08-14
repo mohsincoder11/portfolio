@@ -73,4 +73,20 @@ export const Container = styled.section`
   @media(max-width: 480px){
     margin-top: 45%;
   }
+    .floating-island {
+  animation: floatAnim 6s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
 `
