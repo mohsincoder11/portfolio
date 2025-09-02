@@ -28,7 +28,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
   <p>
-    Hi there! I'm Mohsin Shaikh, a Lead Full-Stack PHP Laravel Developer with 5+ years of experience
+    Hi there! I'm Mohsin Shaikh, a Lead Full-Stack PHP Laravel Developer with 6+ years of experience
     in building scalable web applications, leading teams, and delivering innovative digital solutions
     that drive business growth.
   </p>
